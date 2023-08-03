@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile.css" media="max-width: 500px">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+</head>
+
+<body>
+    <video autoplay loop muted src="/Assets/bg video.mp4"></video>
+    <nav class="nav">
+      <div class="navbar">
+        <li class="links noun "><a href="#ABOUT">ABOUT</a></li>
+        <li class="links noun"><a href="#EXPLORE">EXPLORE</a></li>
+        <span class="loc">
+          <img src="/Assets/loc.png" alt="">
+        </span>
+        <li class="links noun"><a href="#JOURNAL">JOURNAL</a></li>
+        <li class="links"><svg height="1rem" fill="var(--txt-clr)" viewBox="0 0 512 512">
+            <path
+              d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+          </svg> SEARCH</li>
+      </div>
+      <span class="material-symbols-outlined cross" >
+        close
+        </span>
+        <span class="material-symbols-outlined menu" >
+          menu
+          </span>
+    </nav>
+    <div class="crsr"></div>
+    <div id="main" class="container">
+      <div class="hero" id="#ABOUT">
+        <span class="head1">The Great Outdoors</span>
+        <span class="para1">Wander often. Wonder always.</span>
+        <div class="playbtn">
+          <div class="tr_agl"></div>
+        </div>
+      </div>
+      <div class="xplr" id="EXPLORE">
+        <div class="head2">Explore the World</div>
+        <div class="para1">We seek to Provide the most authentic content from athletes, adventures,</div>
+        <div class="para1">explores and travellers around the world. Our long term mission is to educate,</div>
+        <div class="para1">inspire and enable all people to experience & protect wilderness.</div>
+        <div class="cards" id="cards">
+          <div class="card">
+            <div class="head3">Nærøyfjord</div>
+            <div class="para1">NORWAY</div>
+          </div>
+          <div class="card">
+            <div class="head3">Antelope Canyon</div>
+            <div class="para1">NORWAY</div>
+          </div>
+          <div class="card">
+            <div class="head3">Grossglockner</div>
+            <div class="para1">AUSTRIA</div>
+          </div>
+        </div>
+        <div class="link1">SEE MORE ›</div>
+      </div>
+      <div class="jrnl" id="#JOURNAL">
+        <div class="head2">The Journal</div>
+        <div class="para1">Our favorite stories about public lands and opportunities for you to get</div>
+        <div class="para1">involved in protecting your outdoor experiences.</div>
+        <div class="cards">
+          <div class="card">
+            <div class="img"></div>
+            <div class="txt">
+              <div class="para1">MAY 30, 2017</div>
+              <div class="head3">An Unforgettable</div>
+              <div class="para1">If you only have one day to visit <div>Yosemite National Park</div> and you want to
+                make
+                the
+                most out of it.</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img"></div>
+            <div class="txt">
+              <div class="para1">MAY 28, 2017</div>
+              <div class="head3">Symphonies in steel</div>
+              <div class="para1">Crossing the <div>Golden Gate Bridge</div> from San Franciso, you arrived in Marin even
+                before landing on solid ground.</div>
+            </div>
+          </div>
+        </div>
+        <div class="link1">ALL POST ›</div>
+      </div>
+      <div class="bgimage">
+        <img
+          src="https://images.unsplash.com/photo-1583948006313-dc024903c507?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1332&q=80"
+          alt="sean">
+        <div class="shade"></div>
+        <div class="footertxt">
+          <div class="para1">© 2017 THE GREAT OUTDOORS.</div>
+          <div class="para1">All rights reserved.</div>
+          <div class="ndprt">
+            <div class="links noun hovered"><a href="#ABOUT">ABOUT</a></div>
+            <div class="links noun"><a href="#EXPLORE">EXPLORE</a></div>
+            <div class="links noun"><a href="#JOURNAL">JOURNAL</a></div>
+            <div class="links">SEARCH</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+    integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
